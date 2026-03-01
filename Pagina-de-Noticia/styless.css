@@ -1,0 +1,80 @@
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+header h1 {
+    margin: 0;
+    padding: 5px;
+    font-size: 40px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    padding: 5px;
+    margin: 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+
+.menu a {
+    color: white;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.menu a:hover {
+    color: blue;
+}
+
+.banda {
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+.banda h1, .banda h2 {
+    text-align: center;
+}
+
+.membros {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: whitesmoke;
+}
+
+.membros article {
+    background-color: white;
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+.solodeguitarra {
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.descricao {
+    text-align: center;
+}
+
+.curiosidade {
+    text-align: center;
+}
+
+img{
+    width: 150px;
+    border: 5px solid black;
+}
